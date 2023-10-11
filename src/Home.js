@@ -21,13 +21,13 @@ function Home() {
         <div className="service">
           <h2>Commercial Building Science & Investment</h2>
           <p>
-            Realaityhomes is at the forefront of providing sustainable and cost-effective solutions in commercial construction, building rehabilitation, and investment insights for US commercial assets.
+          Metrorealaity is at the forefront of providing sustainable and cost-effective solutions in commercial construction, building rehabilitation, and investment insights for US commercial assets.
           </p>
         </div>
         <div className="service">
           <h2>Residential Building Science & Property Tech</h2>
           <p>
-            At Realaityhomes, we're dedicated to sustainable living solutions, geothermal and solar-powered land development, custom constructions, and home automation.
+            At Metrorealaity, we're dedicated to sustainable living solutions, geothermal and solar-powered land development, custom constructions, and home automation.
           </p>
         </div>
       </div>
