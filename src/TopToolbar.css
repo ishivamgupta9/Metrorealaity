@@ -1,0 +1,35 @@
+.top-toolbar {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo {
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .logo-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .tabs {
+    margin-right: 50px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tab-link {
+    text-decoration: none;
+    color: white;
+  }
+  

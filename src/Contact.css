@@ -1,0 +1,82 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    text-align: left;
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 10px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.2s; /* Add a transform transition for animation */
+  }
+  
+  .form-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+    color: #ddd;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    font-size: 18px;
+    background-color: #222;
+    color: white;
+    width: 100%;
+  }
+  
+  textarea {
+    min-height: 200px;
+    padding: 15px;
+  }
+  
+  button {
+    padding: 15px 50px;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #104e8b;
+  }
+  
+  /* Add hover effect */
+  .contact-form:hover {
+    transform: scale(1.05); /* Grow slightly when hovered over */
+  }
+  
