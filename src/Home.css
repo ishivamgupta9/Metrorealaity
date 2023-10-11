@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif; /* Google Font 'Poppins' */
+  font-family: 'Poppins', sans-serif;
   background-color: black;
   color: white;
 }
@@ -30,23 +30,21 @@ body {
 }
 
 .logo-container {
-  margin-top: 40px; 
-  margin-right: 10px; /* Add margin to create space */
+  margin-top: 40px;
+  margin-right: 10px;
   flex: 1;
 }
 
 .logo {
- 
   max-width: 100%;
   height: auto;
- 
-  border-radius: 5px; /* Square image */
+  border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .intro {
   flex: 2;
-  margin-left: 80px; /* Add margin to create space */
+  margin-left: 80px;
   text-align: left;
   padding: 20px;
 }
@@ -55,7 +53,16 @@ body {
   font-size: 36px;
   color: #ffffff; /* White text */
   margin-bottom: 10px;
-  transition: transform 0.2s; /* Add a transition for animation */
+  animation: colorChange 4s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ffffff;
+  }
+  100% {
+    color: #1e90ff; /* Custom blueish color */
+  }
 }
 
 .title:hover {
@@ -99,8 +106,9 @@ body {
 
 .service h2 {
   font-size: 24px;
-  color: #ffffff; /* White text */
   margin-bottom: 10px;
+  transition: color 0.3s; /* Smooth color transition */
+  color: #ffffff; /* White text */
 }
 
 .service p {
@@ -109,7 +117,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Fake case studies section */
+/* Case studies section */
 .case-studies {
   text-align: center;
   max-width: 800px;
@@ -136,6 +144,7 @@ body {
   color: #ffffff; /* White text */
   margin-bottom: 10px;
   text-align: center;
+  transition: color 0.3s; /* Smooth color transition */
 }
 
 .case-study p {
@@ -148,5 +157,15 @@ body {
   transform: translateY(-5px);
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
 }
+/* Add a class to change the background color when clicked */
+.service.clicked, .case-study.clicked {
+  background-color: #1e90ff; /* Blue background color */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
 
-/* Rest of your CSS remains the same */
+.service h2, .case-study h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White text */
+  transition: color 0.3s; /* Smooth color transition */
+}

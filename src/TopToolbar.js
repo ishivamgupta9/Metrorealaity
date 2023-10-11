@@ -7,7 +7,7 @@ function TopToolbar() {
     <div className="top-toolbar">
       <div className="logo">
         <Link to="/" className="logo-link">
-          Realaityhomes
+        Metrorealaity
         </Link>
       </div>
       <div className="tabs">

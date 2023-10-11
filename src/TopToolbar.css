@@ -1,35 +1,48 @@
 .top-toolbar {
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 10px 10px 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  .logo {
-    margin-left: 50px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .logo-link {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .tabs {
-    margin-right: 50px;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .tab-link {
-    text-decoration: none;
-    color: white;
-  }
-  
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s; /* Add color transition for animation */
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white;
+}
+
+.tabs {
+  margin-right: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.tab-link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s; /* Add color transition for animation */
+}
+
+/* Change color when hovered over */
+.tab-link:hover{
+  color: #1e90ff; /* Change the color to your desired hover color */
+}
+
+/* Add a smooth text size transition on hover */
+.logo-link:hover {
+  color: #1e90ff; /* Change the color to your desired hover color */
+  font-size: 22px; /* Increase the font size on hover */
+  transition: color 0.3s, font-size 0.3s; /* Smooth color and font size transition */
+}

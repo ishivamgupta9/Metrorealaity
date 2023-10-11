@@ -7,10 +7,10 @@ function Home() {
     <div className="home">
       <div className="header">
         <div className="logo-container">
-          <img src={pic} alt="Realaityhomes Logo" className="logo" />
+          <img src={pic} alt="MetroRealAIty Logo" className="logo" />
         </div>
         <div className="intro">
-          <h1 className="title">Welcome to Realaityhomes</h1>
+          <h1 className="title">Welcome to Metrorealaity</h1>
           <p className="subtitle">Promoting Sustainable Living Solutions</p>
           <p className="description">
             Specializing in geothermal and solar-powered land development, custom constructions, and home automation. We offer free consultations for geothermal HVAC, land development, solar solutions, and home technology. Our services have been praised by customers for their innovative consultation services that transformed their spaces into energy-efficient havens.
@@ -47,6 +47,10 @@ function Home() {
         </div>
       </div>
     </div>
+
+
+
+
   );
 }
 

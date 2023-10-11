@@ -6,7 +6,7 @@ function Footer() {
     <div className='footer-content'>
       <div className='footer-top'>
         <div className="bottom-logo">
-          <img src={pic} alt="Realaityhomes Logo" className="b-logo" />
+          <img src={pic} alt="Metrorealaity Logo" className="b-logo" />
         </div>
         <div className='social-connect'>
           <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
@@ -21,7 +21,7 @@ function Footer() {
         </div>
       </div>
       <div className='copy5'>
-        &copy; 2023 Realaityhomes. All rights reserved.
+        &copy; 2023 Metrorealaity. All rights reserved.
       </div>
     </div>
   );
